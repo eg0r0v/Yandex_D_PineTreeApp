@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-PineTreeApp/Pods-PineTreeApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PeerKit/PeerKit.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

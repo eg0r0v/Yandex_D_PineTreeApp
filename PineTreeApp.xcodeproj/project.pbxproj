@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FE0DA0292974550084449D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0D9F292974550084449D /* AppDelegate.swift */; };
+		01FE0DA4292974550084449D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0DA3292974550084449D /* ViewController.swift */; };
+		01FE0DA7292974550084449D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FE0DA5292974550084449D /* Main.storyboard */; };
+		01FE0DA9292974580084449D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FE0DA8292974580084449D /* Assets.xcassets */; };
+		01FE0DAC292974580084449D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FE0DAA292974580084449D /* LaunchScreen.storyboard */; };
+		01FE0DD42929755D0084449D /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0DD32929755D0084449D /* ConnectionManager.swift */; };
+		01FE0DD8292975820084449D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0DD7292975820084449D /* Message.swift */; };
+		01FE0DDE29297CA20084449D /* MessageHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0DDD29297CA20084449D /* MessageHistory.swift */; };
+		01FE0DE2292981550084449D /* NatureLoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0DE1292981550084449D /* NatureLoverViewModel.swift */; };
+		01FE0DE42929817A0084449D /* PineTreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0DE32929817A0084449D /* PineTreeViewModel.swift */; };
+		01FE0DEB2929BF460084449D /* CheckNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE0DEA2929BF460084449D /* CheckNameModel.swift */; };
+		E61A02B99D7D182F748A52B9 /* Pods_PineTreeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5630BC7E117744A94EE406 /* Pods_PineTreeApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01FE0D9C292974550084449D /* PineTreeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PineTreeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FE0D9F292974550084449D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01FE0DA3292974550084449D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01FE0DA6292974550084449D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01FE0DA8292974580084449D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01FE0DAB292974580084449D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01FE0DAD292974580084449D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FE0DD32929755D0084449D /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		01FE0DD7292975820084449D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		01FE0DDD29297CA20084449D /* MessageHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHistory.swift; sourceTree = "<group>"; };
+		01FE0DE1292981550084449D /* NatureLoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureLoverViewModel.swift; sourceTree = "<group>"; };
+		01FE0DE32929817A0084449D /* PineTreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineTreeViewModel.swift; sourceTree = "<group>"; };
+		01FE0DEA2929BF460084449D /* CheckNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNameModel.swift; sourceTree = "<group>"; };
+		41979FF442206A20337EA27A /* Pods-PineTreeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTreeApp.debug.xcconfig"; path = "Target Support Files/Pods-PineTreeApp/Pods-PineTreeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4C5BF941299C0D6D45A72DE1 /* Pods-PineTreeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PineTreeApp.release.xcconfig"; path = "Target Support Files/Pods-PineTreeApp/Pods-PineTreeApp.release.xcconfig"; sourceTree = "<group>"; };
+		8C5630BC7E117744A94EE406 /* Pods_PineTreeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PineTreeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01FE0D99292974550084449D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61A02B99D7D182F748A52B9 /* Pods_PineTreeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FE0D93292974550084449D = {
+			isa = PBXGroup;
+			children = (
+				01FE0D9E292974550084449D /* PineTreeApp */,
+				01FE0D9D292974550084449D /* Products */,
+				2D46822F78BC8A6E240E179D /* Pods */,
+				2310C2736108A5A7AA4B5840 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01FE0D9D292974550084449D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01FE0D9C292974550084449D /* PineTreeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01FE0D9E292974550084449D /* PineTreeApp */ = {
+			isa = PBXGroup;
+			children = (
+				01FE0D9F292974550084449D /* AppDelegate.swift */,
+				01FE0DA3292974550084449D /* ViewController.swift */,
+				01FE0DE72929BCB60084449D /* ViewModel */,
+				01FE0DE029297CB10084449D /* Manager */,
+				01FE0DDF29297CA80084449D /* Model */,
+				01FE0DA5292974550084449D /* Main.storyboard */,
+				01FE0DA8292974580084449D /* Assets.xcassets */,
+				01FE0DAA292974580084449D /* LaunchScreen.storyboard */,
+				01FE0DAD292974580084449D /* Info.plist */,
+			);
+			path = PineTreeApp;
+			sourceTree = "<group>";
+		};
+		01FE0DDF29297CA80084449D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01FE0DD7292975820084449D /* Message.swift */,
+				01FE0DDD29297CA20084449D /* MessageHistory.swift */,
+				01FE0DEA2929BF460084449D /* CheckNameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01FE0DE029297CB10084449D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				01FE0DD32929755D0084449D /* ConnectionManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		01FE0DE72929BCB60084449D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01FE0DE1292981550084449D /* NatureLoverViewModel.swift */,
+				01FE0DE32929817A0084449D /* PineTreeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2310C2736108A5A7AA4B5840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5630BC7E117744A94EE406 /* Pods_PineTreeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D46822F78BC8A6E240E179D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41979FF442206A20337EA27A /* Pods-PineTreeApp.debug.xcconfig */,
+				4C5BF941299C0D6D45A72DE1 /* Pods-PineTreeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01FE0D9B292974550084449D /* PineTreeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FE0DB0292974580084449D /* Build configuration list for PBXNativeTarget "PineTreeApp" */;
+			buildPhases = (
+				0DC463B70C4AB489DC7B5219 /* [CP] Check Pods Manifest.lock */,
+				01FE0D98292974550084449D /* Sources */,
+				01FE0D99292974550084449D /* Frameworks */,
+				01FE0D9A292974550084449D /* Resources */,
+				E857A19269C827D55893C00C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PineTreeApp;
+			productName = PineTreeApp;
+			productReference = 01FE0D9C292974550084449D /* PineTreeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01FE0D94292974550084449D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					01FE0D9B292974550084449D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 01FE0D97292974550084449D /* Build configuration list for PBXProject "PineTreeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01FE0D93292974550084449D;
+			productRefGroup = 01FE0D9D292974550084449D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01FE0D9B292974550084449D /* PineTreeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01FE0D9A292974550084449D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FE0DAC292974580084449D /* LaunchScreen.storyboard in Resources */,
+				01FE0DA9292974580084449D /* Assets.xcassets in Resources */,
+				01FE0DA7292974550084449D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DC463B70C4AB489DC7B5219 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PineTreeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E857A19269C827D55893C00C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PineTreeApp/Pods-PineTreeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PineTreeApp/Pods-PineTreeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PineTreeApp/Pods-PineTreeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FE0D98292974550084449D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FE0DE2292981550084449D /* NatureLoverViewModel.swift in Sources */,
+				01FE0DEB2929BF460084449D /* CheckNameModel.swift in Sources */,
+				01FE0DA4292974550084449D /* ViewController.swift in Sources */,
+				01FE0DD42929755D0084449D /* ConnectionManager.swift in Sources */,
+				01FE0DDE29297CA20084449D /* MessageHistory.swift in Sources */,
+				01FE0DE42929817A0084449D /* PineTreeViewModel.swift in Sources */,
+				01FE0DD8292975820084449D /* Message.swift in Sources */,
+				01FE0DA0292974550084449D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01FE0DA5292974550084449D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FE0DA6292974550084449D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01FE0DAA292974580084449D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FE0DAB292974580084449D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01FE0DAE292974580084449D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01FE0DAF292974580084449D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01FE0DB1292974580084449D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41979FF442206A20337EA27A /* Pods-PineTreeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS9D68HM23;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PineTreeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyaaegorov.PineTreeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01FE0DB2292974580084449D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5BF941299C0D6D45A72DE1 /* Pods-PineTreeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS9D68HM23;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PineTreeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyaaegorov.PineTreeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FE0D97292974550084449D /* Build configuration list for PBXProject "PineTreeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FE0DAE292974580084449D /* Debug */,
+				01FE0DAF292974580084449D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FE0DB0292974580084449D /* Build configuration list for PBXNativeTarget "PineTreeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FE0DB1292974580084449D /* Debug */,
+				01FE0DB2292974580084449D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01FE0D94292974550084449D /* Project object */;
+}

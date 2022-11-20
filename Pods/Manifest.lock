@@ -1,0 +1,20 @@
+PODS:
+  - PeerKit (4.0.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - PeerKit
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - PeerKit
+    - SnapKit
+
+SPEC CHECKSUMS:
+  PeerKit: 34e275ee3c74bbd1bf35ab5093644817897136b5
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 4784a6cd45e4fc90b033aa259a05d603391f2091
+
+COCOAPODS: 1.11.3
